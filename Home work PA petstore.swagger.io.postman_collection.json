@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "ca48630f-a79f-4aa5-82dc-4461d9e639a4",
+		"name": "Home work PA petstore.swagger.io",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23899231"
+	},
+	"item": [
+		{
+			"name": "Task1 User create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1810,\r\n  \"username\": \"BEST\",\r\n  \"firstName\": \"string\",\r\n  \"lastName\": \"string\",\r\n  \"email\": \"string\",\r\n  \"password\": \"string\",\r\n  \"phone\": \"string\",\r\n  \"userStatus\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/user",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task2 firstName and lastName updates",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1810,\r\n  \"username\": \"BEST\",\r\n  \"firstName\": \"Ivan\",\r\n  \"lastName\": \"Ivanov\",\r\n  \"email\": \"string\",\r\n  \"password\": \"string\",\r\n  \"phone\": \"string\",\r\n  \"userStatus\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/user/BEST",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user",
+						"BEST"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Task3 User deletion",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/user/BEST",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user",
+						"BEST"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

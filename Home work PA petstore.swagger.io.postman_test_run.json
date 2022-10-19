@@ -1,0 +1,84 @@
+{
+	"id": "8422213a-6b2f-4c9d-a9eb-2b129ff02573",
+	"name": "Home work PA petstore.swagger.io",
+	"timestamp": "2022-10-18T21:48:24.828Z",
+	"collection_id": "23899231-ca48630f-a79f-4aa5-82dc-4461d9e639a4",
+	"folder_id": 0,
+	"environment_id": "23899231-35fa746a-e301-4338-a10a-adfda0c2fdba",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d232c59d-15ca-4d8f-9783-5645f209cdce",
+			"name": "Task1 User create",
+			"url": "https://petstore.swagger.io/v2/user",
+			"time": 672,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				672
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b899eb11-654f-4e73-a709-407fbe709b27",
+			"name": "Task2 firstName and lastName updates",
+			"url": "https://petstore.swagger.io/v2/user/BEST",
+			"time": 145,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				145
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f4b14577-226d-4c8d-9872-41d2e7f06ade",
+			"name": "Task3 User deletion",
+			"url": "https://petstore.swagger.io/v2/user/BEST",
+			"time": 139,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				139
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 956,
+	"collection": {
+		"requests": [
+			{
+				"id": "d232c59d-15ca-4d8f-9783-5645f209cdce",
+				"method": "POST"
+			},
+			{
+				"id": "b899eb11-654f-4e73-a709-407fbe709b27",
+				"method": "PUT"
+			},
+			{
+				"id": "f4b14577-226d-4c8d-9872-41d2e7f06ade",
+				"method": "DELETE"
+			}
+		]
+	}
+}
